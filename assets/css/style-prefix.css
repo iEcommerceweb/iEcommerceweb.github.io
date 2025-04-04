@@ -3270,3 +3270,10 @@ h1 {
       grid-template-columns: 1fr;
   }
 }
+.header2 {
+  background-color: black;
+
+}
+.header2 h1{
+  color: white;
+}
