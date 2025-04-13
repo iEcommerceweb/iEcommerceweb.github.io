@@ -86,3 +86,15 @@ for (let i = 0; i < accordionBtn.length; i++) {
   });
 
 }
+
+        // Optional JavaScript for additional interactivity
+        document.querySelectorAll('.team-card').forEach(card => {
+          card.addEventListener('mouseenter', () => {
+              card.style.transition = 'all 0.3s ease';
+          });
+
+          card.addEventListener('mouseleave', () => {
+              const socialLinks = card.querySelector('.social-links');
+              socialLinks.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+          });
+      });
