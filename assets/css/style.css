@@ -9,7 +9,7 @@
    * colors
    */
 
-  --spanish-gray: hsl(0, 0%, 60%);
+  /*--spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: hsl(0, 0%, 13%);
   --salmon-pink: hsl(353, 100%, 78%);
@@ -19,13 +19,13 @@
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
   --white: hsl(0, 100%, 100%);
-  --onyx: hsl(0, 0%, 27%);
+  --onyx: hsl(0, 0%, 27%);*/
 
   /**
    * typography
    */
 
-  --fs-1: 1.563rem;
+  /*--fs-1: 1.563rem;
   --fs-2: 1.375rem;
   --fs-3: 1.25rem;
   --fs-4: 1.125rem;
@@ -42,6 +42,7 @@
   --weight-500: 500;
   --weight-600: 600;
   --weight-700: 700;
+  */
 
   /**
    * border-radius
@@ -83,7 +84,7 @@ button {
   cursor: pointer;
 }
 
-img, ion-icon, button, a { display: block; }
+img, ion-icon, button, a { display: purple; }
 
 span { display: inline-block; }
 
@@ -2531,7 +2532,7 @@ footer {
    * #TESTIMONIALS, CTA, SERVICE
    */
 
-  .testimonial, .service {
+  /* .testimonial, .service {
     min-width: calc(25% - 20px);
     width: calc(25% - 20px);
   }
@@ -2551,7 +2552,7 @@ footer {
   .service-item {
     flex-direction: row;
     text-align: left;
-  }
+  } */
 
 
 
@@ -2569,14 +2570,14 @@ footer {
    * #FOOTER
    */
 
-  footer { padding-top: 50px; }
+  /* footer { padding-top: 50px; }
 
   .footer-category {
     margin-bottom: 50px;
     padding-bottom: 35px;
   }
 
-  .footer-nav { padding-bottom: 50px; }
+  .footer-nav { padding-bottom: 50px; } */
 
 }
 
